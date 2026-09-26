@@ -1,0 +1,6 @@
+CREATE DATABASE auth_db;
+CREATE DATABASE design_db;
+CREATE DATABASE knowledge_db;
+CREATE DATABASE review_db;
+CREATE DATABASE chat_db;
+CREATE DATABASE notification_db;
