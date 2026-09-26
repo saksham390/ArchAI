@@ -226,18 +226,6 @@ Planned next steps include:
 - event-driven workflows and notifications
 - end-to-end testing and CI/CD setup
 
-## Contributing
-
-Contributions are welcome. If you want to improve the project:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a pull request
-
-## License
-
-This project is currently provided for educational and portfolio use. Add a license file before using it in production or distributing it publicly as a reusable project.
 
 ## Push to GitHub
 
@@ -252,15 +240,4 @@ git remote add origin https://github.com/YOUR_USERNAME/ArchAI.git
 git push -u origin main
 ```
 
-## Troubleshooting
 
-Common issues:
-
-- `mvn` not found: install Maven and ensure it is on your PATH
-- port already in use: stop the process holding the port or change the mapped port
-- JWT auth issues: ensure the same secret is set in auth and gateway configuration
-- frontend cannot reach backend: verify `VITE_API_BASE_URL` and gateway status
-
-## Contact / Notes
-
-This project is designed to evolve into a more complete architecture assistant and is intentionally structured around service boundaries for learning and extension.
